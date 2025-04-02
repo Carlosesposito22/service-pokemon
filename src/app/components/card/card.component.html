@@ -1,0 +1,13 @@
+<div class="card">
+    <div class="card__title">
+        <h3> {{ name }} </h3>
+    </div>
+    <div class="card__body">
+        <img src="" alt="pokemon">
+    </div>
+    <div class="card__stats">
+        @for (attribute of attributesTypes; track $index) {
+            <span class="card__stats__type">{{ attribute }}</span>
+        }
+    </div>
+</div>
