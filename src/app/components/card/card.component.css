@@ -2,13 +2,10 @@
     border: solid 1px black;
     width: 250px;
     height: 350px;
-
     display: flex;
     flex-direction: column;
     background-color: #232323;
     border-radius: 10px;
-
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card__title {
@@ -44,4 +41,10 @@
     border-radius: 5px;
     padding: 5px;
     margin-right: 4px;
+}
+
+.card__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
