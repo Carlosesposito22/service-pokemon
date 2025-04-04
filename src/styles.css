@@ -1,3 +1,13 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+body {
+    background-image: url('https://wallpaper.forfun.com/fetch/c9/c9ef9d974ed2e16dccde0224a83c4eda.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
