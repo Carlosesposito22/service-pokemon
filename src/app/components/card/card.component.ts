@@ -46,7 +46,7 @@ export class CardComponent implements OnInit {
       this.pokemon = {
         id: 1,
         name: 'Miccuci',
-        sprites: {front_default: 'src/assets/miccuci.jpg'},
+        sprites: {front_default: 'https://github.com/Carlosesposito22/service-pokemon/blob/master/src/assets/miccuci.jpg?raw=true'},
         types: [{slot: 1, type: {name: 'dragon', url: ''}}, {slot: 2, type: {name: 'fairy', url: ''}}]
       }
     } else {
